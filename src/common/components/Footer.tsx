@@ -2,34 +2,6 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    // <div className="flex-shrink-0 w-[1400px] h-[474px]">
-    //   <div className="flex-shrink-0 w-[1400px] h-[474px] bg-white" />
-    //   <div className="flex flex-shrink-0 justify-center items-center gap-2.5 pr-0 w-[9.75rem] h-[2.5625rem]">
-    //     <svg width={25} height={33} viewBox="0 0 25 33" fill="none" xmlns="http://www.w3.org/2000/svg">
-    //       <path d="M0 15.5H16.2851C21.0522 15.5 24.9167 19.3645 24.9167 24.1316C24.9167 28.8987 21.0522 32.7632 16.2851 32.7632H0V15.5Z" fill="#0A2640" />
-    //       <path d="M0 0.394775H10.8597C14.435 0.394775 17.3333 3.29314 17.3333 6.86846C17.3333 10.4438 14.435 13.3421 10.8597 13.3421H0V0.394775Z" fill="#0A2640" />
-    //     </svg>
-    //     <div className="flex flex-col flex-shrink-0 justify-center w-[7.5rem] h-[2.5625rem] text-[#0a2640] font-[family-name:var(--font-manrope)] text-[2.6875rem] font-bold leading-[2.0625rem]">Boldo</div>
-    //   </div>
-    //   <div className=" w-[18.75rem] text-[#777] leading-7">Social media validation business model canvas graphical user interface launch party creative facebook iPad twitter.</div>
-    //   <div className="w-[15.625rem] text-[#777] leading-7">All rights reserved.</div>
-    //   <div className="flex flex-col flex-shrink-0 justify-center w-[9.375rem] h-9 text-black text-xl font-bold leading-8">Landings</div>
-    //   <div className="flex flex-col flex-shrink-0 justify-center w-[9.375rem] h-[10.75rem] text-[#777] text-xl leading-8">Home
-    //     Products
-    //     Services</div>
-    //   <div className="flex flex-col flex-shrink-0 justify-center w-[9.375rem] h-9 text-black text-xl font-bold leading-8">Company</div>
-    //   <div className="flex flex-col flex-shrink-0 justify-center w-[9.375rem] h-[10.75rem] text-[#777] text-xl leading-8">Home
-    //     Careers
-    //     Services</div>
-    //   <div className="flex flex-col flex-shrink-0 justify-center w-[9.375rem] h-9 text-black text-xl font-bold leading-8">Resources</div>
-    //   <div className="flex flex-col flex-shrink-0 justify-center w-[9.375rem] h-[10.75rem] text-[#777] text-xl leading-8">Blog
-    //     Products
-    //     Services</div>
-    //   <div className="inline-flex items-start gap-2.5 py-px px-3 rounded-full bg-[#65e4a3] text-[#0a2640] text-[.8125rem] font-bold leading-7">
-    //     Hiring!
-    //   </div>
-    // </div>
-
     <footer className="pb-[117px]">
 
       <div className="w-full mx-auto flex flex-col md:flex-row justify-between md:gap-[180px] gap-7">
