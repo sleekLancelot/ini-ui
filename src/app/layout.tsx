@@ -1,14 +1,16 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Open_Sans, Manrope } from "next/font/google";
 import "./globals.css";
+import { NavBar } from "@/common";
+import { Hero, MiddleContent } from "./Home";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const open_Sans = Open_Sans({
+  variable: "--font-open-sans",
   subsets: ["latin"],
-});
+})
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const manrope = Manrope({
+  variable: "--font-manrope",
   subsets: ["latin"],
 });
 
@@ -25,8 +27,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${open_Sans.variable} ${manrope.variable} antialiased md:px-[100px] px-[18px]`}
       >
+        <NavBar />
+        <Hero />
+        <MiddleContent />
         {children}
       </body>
     </html>
