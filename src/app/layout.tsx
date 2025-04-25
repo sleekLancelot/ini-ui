@@ -1,8 +1,7 @@
 import type { Metadata } from "next";
 import { Open_Sans, Manrope } from "next/font/google";
 import "./globals.css";
-import { NavBar } from "@/common";
-import { Hero, MiddleContent } from "./Home";
+import { Footer, NavBar } from "@/common";
 
 const open_Sans = Open_Sans({
   variable: "--font-open-sans",
@@ -30,9 +29,8 @@ export default function RootLayout({
         className={`${open_Sans.variable} ${manrope.variable} antialiased md:px-[100px] px-[18px]`}
       >
         <NavBar />
-        <Hero />
-        <MiddleContent />
-        {children}
+          {children}
+        <Footer />
       </body>
     </html>
   );
