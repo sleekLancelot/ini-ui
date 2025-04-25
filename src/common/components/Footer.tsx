@@ -51,7 +51,7 @@ const Footer = () => {
         </section>
 
 
-        <nav className="grid grid-cols-1 md:grid-cols-3 gap-[96px] text-[20px] leading-8">
+        <nav className="grid grid-cols-1 md:grid-cols-3 gap-9 md:gap-[96px] text-[20px] leading-8">
           <div>
             <h3 className="text-black font-bold mb-8">Landings</h3>
             <ul className="list-none space-y-[32px] text-[#777]">
